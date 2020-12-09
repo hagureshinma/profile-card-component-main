@@ -1,0 +1,23 @@
+@import "variables";
+@import "card";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: 
+    url(../images/bg-pattern-top.svg) calc(50% - 450px) calc(50% - 460px) no-repeat,
+    url(../images/bg-pattern-bottom.svg) calc(50% + 450px) calc(50% + 460px) no-repeat,
+    var(--color-primary);
+}

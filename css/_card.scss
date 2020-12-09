@@ -1,0 +1,50 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 325px;
+    margin: auto;
+    background: url(../images/bg-pattern-card.svg) white;
+    background-repeat: no-repeat;
+    background-position: top;
+    color: var(--color-primary-light);
+    border-radius: 15px;
+
+    .avatar{
+        width: 96px;
+        height: 96px;
+        margin: 88px 0 0 0;
+        border: 5px solid white;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .info{
+        margin: 1.3em 0;
+    }
+
+    .stats{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        padding: 1.3em 0;
+        border-top: 1px solid lightgrey;
+        p{
+            font-size: 12px;
+            letter-spacing: 1px;
+        }
+    }
+
+    .enfasis{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.8;
+        color: var(--color-primary-shadow);
+    }
+
+    .city{
+        font-size: 14px;
+    }
+}
