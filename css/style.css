@@ -5,7 +5,7 @@
   --color-neutral: hsl(0, 0%, 59%);
 }
 
-.card {
+.user-card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -29,7 +29,7 @@
   border-radius: 15px;
 }
 
-.card .avatar {
+.user-card .user-card__avatar {
   width: 96px;
   height: 96px;
   margin: 88px 0 0 0;
@@ -38,11 +38,11 @@
   overflow: hidden;
 }
 
-.card .info {
+.user-card .user-card__info {
   margin: 1.3em 0;
 }
 
-.card .stats {
+.user-card .user-card__stats {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,19 +54,19 @@
   border-top: 1px solid lightgrey;
 }
 
-.card .stats p {
+.user-card .user-card__stats p {
   font-size: 12px;
   letter-spacing: 1px;
 }
 
-.card .enfasis {
+.user-card .user-card--text-accent {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.8;
   color: var(--color-primary-shadow);
 }
 
-.card .city {
+.user-card .user-card__location {
   font-size: 14px;
 }
 

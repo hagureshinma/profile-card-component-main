@@ -1,4 +1,4 @@
-.card{
+.user-card{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,7 +12,7 @@
     color: var(--color-primary-light);
     border-radius: 15px;
 
-    .avatar{
+    .user-card__avatar{
         width: 96px;
         height: 96px;
         margin: 88px 0 0 0;
@@ -21,11 +21,11 @@
         overflow: hidden;
     }
 
-    .info{
+    .user-card__info{
         margin: 1.3em 0;
     }
 
-    .stats{
+    .user-card__stats{
         display: flex;
         width: 100%;
         justify-content: space-evenly;
@@ -37,14 +37,14 @@
         }
     }
 
-    .enfasis{
+    .user-card--text-accent{
         font-size: 18px;
         font-weight: 700;
         line-height: 1.8;
         color: var(--color-primary-shadow);
     }
 
-    .city{
+    .user-card__location{
         font-size: 14px;
     }
 }
